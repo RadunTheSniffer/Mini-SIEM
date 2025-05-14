@@ -1,0 +1,14 @@
+[
+    {
+        "rule_id": "failed_login",
+        "pattern": "Failed login attempt",
+        "severity": "high",
+        "action": "send_email"
+    },
+    {
+        "rule_id": "unusual_network_connection",
+        "pattern": "Unusual network connection to port 2222",
+        "severity": "medium",
+        "action": "log_alert"
+    }
+]
